@@ -13,5 +13,13 @@
     "path": "^0.12.7"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "Personal website developed using Bootstrap showcasing my programming experience",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidRSoftware/davidrosen.com-bootstrap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DavidRSoftware/davidrosen.com-bootstrap/issues"
+  },
+  "homepage": "https://github.com/DavidRSoftware/davidrosen.com-bootstrap#readme"
 }
