@@ -21,6 +21,18 @@ app.get('/', function(req, res, next) {
     res.render('index', {title: "Contact Book"});
 });
 
+app.get('/music', function(req, res, next) {
+    res.render('music');
+});
+
+app.get('/college', function(req, res, next) {
+    res.render('college');
+});
+
+app.get('/projects', function(req, res, next) {
+    res.render('projects');
+});
+
 // app.get('/*', function(req, res, next) {
 //   res.render('not-found');
 // })

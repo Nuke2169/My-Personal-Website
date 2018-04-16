@@ -1,0 +1,11 @@
+html, .row {
+  background-color: #ABD1D1;
+}
+
+.navigation-grey {
+  background-color: grey;
+}
+
+.text-blue {
+  color: #ABD1D1 !important;
+}
