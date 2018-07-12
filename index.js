@@ -33,6 +33,10 @@ app.get('/projects', function(req, res, next) {
     res.render('projects');
 });
 
+app.get('/practice', function(req, res, next) {
+    res.render('practice');
+});
+
 // app.get('/*', function(req, res, next) {
 //   res.render('not-found');
 // })

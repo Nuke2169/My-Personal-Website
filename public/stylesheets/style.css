@@ -1,33 +1,4 @@
 body {
   background-color: #ABD1D1!important;
-  /* overflow: hidden; */
   overflow-x: hidden;
-}
-
-.navigation-grey {
-  background-color: grey;
-}
-
-.text-blue {
-  color: #ABD1D1 !important;
-}
-
-.set-background-pink{
-  background-color: lightpink!important;
-}
-
-.container{
-  overflow: visible!important;
-}
-
-.carousel-inner > .carousel-item > img {
-    margin: 0 auto;
-}
-
-.carousel-inner > .carousel-item {
-  background-color: grey;
-}
-
-.carousel-caption > p {
-  color: #ABD1D1!important;
 }
