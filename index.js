@@ -17,29 +17,10 @@ app.set('view engine', '.hbs');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Copy and modify this code to add new pages to the website
 app.get('/', function(req, res, next) {
-    res.render('index', {title: "Contact Book"});
+    res.render('index');
 });
-
-app.get('/music', function(req, res, next) {
-    res.render('music');
-});
-
-app.get('/college', function(req, res, next) {
-    res.render('college');
-});
-
-app.get('/projects', function(req, res, next) {
-    res.render('projects');
-});
-
-app.get('/practice', function(req, res, next) {
-    res.render('practice');
-});
-
-// app.get('/*', function(req, res, next) {
-//   res.render('not-found');
-// })
 
 app.set('port', process.env.PORT || 5000);
 var server = app.listen(port, function() {
